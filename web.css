@@ -1,0 +1,361 @@
+.hero {
+    background-image: url('https://wallpapercave.com/wp/wp3594901.jpg'); 
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    
+
+    
+  }
+  .para{
+    font-weight: 600;
+    font-size: 18px;
+    
+
+  }
+  .para2{
+    font-weight: 600;
+    color: #f41219;
+    font-size: 18px;
+    
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    position: fixed;
+    background-color: white;
+
+
+}
+.text {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(45, 40, 40);
+  
+  
+
+}
+
+
+.h1:hover{
+  transition: all 0.5s ease;
+  color:#f41219
+  
+}
+.h2:hover{
+color: aqua;
+}
+.h3:hover{
+  color:blue;
+
+
+}
+.h4:hover{
+  color: coral;
+}
+.h6:hover{
+color: blueviolet;
+}
+.h5:hover{
+color: chartreuse;
+}
+
+  .hero-content {
+    width: 80%;
+    margin: auto;
+    padding-top:300px ;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .search-input, .location-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #ff5a5f; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    
+  }
+.search-button:hover{
+  transition:all 0.5s ease;
+  color:red;
+  background-color: white;
+}
+.card-0{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 2px;
+  height:100%;
+  width: 100vh;
+  padding:10px;
+  margin: 70px;
+}
+.card {
+  width: 230px;
+  padding: 10px;
+  background-color:rgb(250, 244, 244);
+  margin: 20px;
+}
+.card:hover{
+  background-color: #f41219;
+  color:white;
+  transition: all 0.5s ease;
+}
+   
+ 
+.card-2{
+  color: black;
+}
+.card-3{
+  color: black;
+}
+.img{
+  height:120px;
+}
+.work-11{
+  margin: 250px;
+    text-align: center;
+    margin-bottom:0;
+    padding-bottom:0;
+    
+}
+  .work-0{
+    margin: 250px;
+    text-align: center;
+    margin-bottom:0;
+    padding-bottom:0;
+    margin-top: 0;
+    
+  }
+  .work-1{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .work-2{
+    font-size: 18px;
+    color: #858383;
+  }
+  
+.place{
+  border: 2px solid rgb(215, 214, 214);
+  height:400px;
+  width: 280px;
+  background-color:rgb(224, 219, 219);
+  padding: 20px;
+  color: rgb(1, 1, 1);
+  margin:30px;
+  border-radius: 4px;
+}
+.place:hover{
+ background-color: #fb565e;
+ color: white;
+}
+.place-1{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.place-2{
+  font-size: 18px;
+  color: #4f4f4f;
+  text-align: center;
+}
+.place-b{
+  height: 35px;
+  width: 100px;
+  border-radius: 4px;
+  display:flow-root;
+  margin: auto;
+  font-size: 14px;
+  border:2px solid rgb(163, 162, 162);
+  background-color:white;
+}
+.img-1{
+  height: 200px;
+  display: flex;
+  margin:auto;
+  border-radius: 110px;
+}
+.place-0{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+  margin: 50px;
+}
+.place-b:hover{
+  background-color: #1f1e1e;
+  color:white;
+  border: none;
+}
+
+
+.bar{
+  border: 2px solid rgb(215, 214, 214);
+  width: 360px;
+  background-color:white;
+  padding: 20px;
+  color: rgb(1, 1, 1);
+  margin:30px;
+  border-radius: 4px;
+}
+.bar-1{
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.bar-2{
+  font-size: 18px;
+  color: #4f4f4f;
+  text-align:start ;
+}
+.bar-b{
+  height: 35px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color:white ;
+  border:0px ;
+}
+.barimg-1{
+  height: 200px;
+  display: flex;
+  margin:auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.barimg-2{
+  height: 200px;
+  display: flex;
+  margin:auto;
+  width: 100%;
+  border-radius: 60px;
+}
+.bar-0{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+  margin: 50px;
+ 
+ 
+}
+.pspk{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+  margin: 50px;
+  margin-top: 0;
+
+ 
+}
+.bar-b:hover{
+  background-color: #1f1e1e;
+  color:white;
+  border: none;
+}
+
+
+
+
+
+
+
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: 150px;
+  padding: 60px;
+}
+
+.slides {
+  display: flex;
+  flex-direction :column-reverse;
+  height:20; 
+  animation:slideUp 10s infinite;
+
+  gap: 100px;
+   
+}
+
+.profile-page {
+  width:100%;
+  height: 100vh;
+  font-size: 24px;
+  background: lightcoral;
+  padding: 20px;
+  
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+  margin: 50px;
+  margin-top:0px;
+  background-color: #dadcd9;
+  width: 100vw;
+  
+}
+.contact-1{
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+.contact-b{
+  height: 35px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color:white ;
+  border:0px ;
+  color: brown;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+}
+.contact-b:hover{
+  background-color: #1f1e1e;
+  color:white;
+}
+.contact-3{
+font-size: 40px;
+}
